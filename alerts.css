@@ -40,3 +40,8 @@ p {
   81% {opacity: 1; left: 145px; top: 30px; transform: scaley(1);}
   84% {opacity: 0; left: 146px; top: 145px; transform: scaley(0.05);}
 }
+
+@keyframes opacity {
+  10% {opacity: 1;}
+  84% {opacity: 1;}
+}
