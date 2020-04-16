@@ -29,17 +29,19 @@ div {
 
 .text {
   position: absolute;
-  left: 130px;
+  left: 100px;
   top: 30px;
   opacity: 0;
   animation: movop 10s;
   animation-delay: 3.5s;
+  animation-timing-function: cubic-bezier(.1,.7,.3,.3);
 }
 
 @keyframes movop {
-  10% {opacity: 1; left: 130px;}
+  10% {opacity: 1;}
   81% {opacity: 1; left: 145px; top: 30px; transform: scaley(1);}
-  84% {opacity: 0; left: 146px; top: 45px; transform: scaley(0.05);}
+  84% {opacity: 0; top: 45px; transform: scaley(0.05);}
+  100% {left: 145px;}
 }
 
 @keyframes opacity {
