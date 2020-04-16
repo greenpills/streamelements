@@ -34,3 +34,9 @@ p {
   animation: movop 10s;
   animation-delay: 3.5s;
 }
+
+@keyframes movop {
+  10% {opacity: 1; left: 130px;}
+  81% {opacity: 1; left: 145px; top: 30px; transform: scaley(1);}
+  84% {opacity: 0; left: 146px; top: 145px; transform: scaley(0.05);}
+}
