@@ -10,6 +10,7 @@ div {
 }
 
 p {
+  width: 400px;
   font-size: 20px;
   padding: 0px 20px 20px 100px;
   animation: opacity 11s;
@@ -28,7 +29,7 @@ p {
 
 .text {
   position: absolute;
-  left: 100px;
+  left: 130px;
   top: 30px;
   opacity: 0;
   animation: movop 10s;
@@ -38,7 +39,7 @@ p {
 @keyframes movop {
   10% {opacity: 1; left: 130px;}
   81% {opacity: 1; left: 145px; top: 30px; transform: scaley(1);}
-  84% {opacity: 0; left: 146px; top: 145px; transform: scaley(0.05);}
+  84% {opacity: 0; left: 146px; top: 45px; transform: scaley(0.05);}
 }
 
 @keyframes opacity {
