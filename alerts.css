@@ -39,7 +39,7 @@ div {
 
 .caitsithText {
   position: absolute;
-  left: 160px;
+  left: 130px;
   top: 40px;
   opacity: 0;
   animation: opacity 10s;
