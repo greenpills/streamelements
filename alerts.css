@@ -1,3 +1,10 @@
+:root {
+  --aerith-lb: 8.5s;
+  --caitsith-win: 0s;
+  --tifa-lb: 10s;
+  --yuffie-lb: 3.5s;
+}
+
 div, p {
   font-family: "Agency FB";
   color: #FFFFFF;
@@ -7,15 +14,15 @@ div, p {
 p {
   width: 350px;
   font-size: 20px;
-  padding: 0px 20px 20px 130px;
-  animation: opacity 11s;
-  animation-delay: 5.5s;
+/*  padding: 0px 20px 20px 130px; */
+  animation-name: opacity;
+  animation-duration: inherit;
+  animation-delay: inherit;
   opacity: 0;
 }
 
 div {
   font-size: 30px;
-  padding-top: 250px;
 }
 
 .rotate {
@@ -27,36 +34,64 @@ div {
   font-weight: bold;
 }
 
-.text {
-  position: absolute;
-  left: 100px;
-  top: 30px;
-  opacity: 0;
-  animation: movop 10s;
-  animation-delay: 3.5s;
-  animation-timing-function: cubic-bezier(.1,.7,.3,.3);
-}
-
-.caitsithText {
-  position: absolute;
-  left: 140px;
-  top: 40px;
-  opacity: 0;
-  animation: opacity 10s;
-  animation-delay: 3.5s;
-}
-
-.aerithlbImg {
+.aerith-lbImg {
   position: absolute;
   top: -60px;
 }
 
-.aerithlbText {
+.aerith-lbText {
   left: 140px;
   top: 40px;
   opacity: 0;
-  animation: opacity 10s;
-  animation-delay: 5.5s;
+  animation-name: opacity;
+  animation-duration: 10s;
+  animation-delay: var(--aerith-lb);
+}
+
+.caitsith-winImg {
+  position: absolute;
+  top: 60px;
+} 
+  
+.caitsith-winText {
+  position: absolute;
+  left: 140px;
+  top: 40px;
+  opacity: 0;
+  animation-name: opacity;
+  animation-duration: 10s;
+  animation-delay: var(--caitsith-win);
+}
+
+.tifa-lbImg {
+  position: absolute;
+  top: 80px;
+} 
+  
+.tifa-lbText {
+  position: absolute;
+  left: 140px;
+  top: 40px;
+  opacity: 0;
+  animation-name: stretchop;
+  animation-duration: 10s;
+  animation-delay: var(--tifa-lb);
+}
+
+.yuffie-lbImg {
+  position: absolute;
+  top: 60px;
+}
+  
+.yuffie-lbText {
+  position: absolute;
+  left: 100px;
+  top: 30px;
+  opacity: 0;
+  animation-name: movop;
+  animation-duration: 10s;
+  animation-delay: var(--yuffie-lb);
+  animation-timing-function: cubic-bezier(.1,.7,.3,.3);
 }
 
 @keyframes movop {
@@ -69,4 +104,12 @@ div {
 @keyframes opacity {
   10% {opacity: 1;}
   84% {opacity: 1;}
+}
+
+@keyframes stretchop {
+    0% {opacity: 0; top: 220px;}
+  20% {opacity: 0.99; transform: scale(1, 1); top: 180px;}
+  70% {opacity: 1;}
+  76% {opacity: 0;}
+  100% {transform: scale(1, 1);}
 }
