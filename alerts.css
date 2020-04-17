@@ -24,27 +24,14 @@ div {
   top: -60px;
 }
 
-.aerith-lbText {
-  animation-name: opacity;
-
-}
-
 .caitsith-winImg {
   position: absolute;
   top: 220px;
 } 
-  
-.caitsith-winText {
-  animation-name: opacity;
-}
 
 .tifa-lbImg {
   position: absolute;
   top: 80px;
-} 
-  
-.tifa-lbText {
-  animation-name: stretchop;
 }
 
 img.yuffie-lb {
@@ -57,14 +44,12 @@ img.yuffie-lb {
   position: absolute;
   left: 100px;
   top: 240px;
-  opacity: 0;
 }
 
 .message {
   position: absolute;
   top: 320px;
   left: 130px;
-  opacity: 0;
 }
 
 #movop {
@@ -76,6 +61,11 @@ img.yuffie-lb {
 #opacity {
   opacity: 0;
   animation-name: opacity;
+}
+
+#stretchop {
+  opacity: 0;
+  animation-name: stretchop;
 }
 
 @keyframes movop {
