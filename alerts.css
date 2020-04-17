@@ -37,10 +37,10 @@ div {
   animation-timing-function: cubic-bezier(.1,.7,.3,.3);
 }
 
-.fadein {
+.caitsithText {
   position: absolute;
-  left: 130px;
-  top: 30px;
+  left: 160px;
+  top: 50px;
   opacity: 0;
   animation: opacity 10s;
   animation-delay: 3.5s;
