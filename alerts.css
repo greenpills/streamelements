@@ -56,7 +56,8 @@ img.yuffie-lb {
 #movop {
   opacity: 0;
   animation-name: movop;
-  animation-timing-function: cubic-bezier(.1,.7,.3,.3);
+//animation-timing-function: cubic-bezier(.1,.7,.3,.3);
+  animation-timing-function: linear;
 }
 
 #opactex {
