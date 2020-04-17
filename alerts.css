@@ -9,7 +9,7 @@ p {
   font-size: 20px;
   padding: 0px 20px 20px 130px;
   animation: opacity 11s;
-  animation-delay: {{textDelay}}s;
+  animation-delay: 5.5s;
   opacity: 0;
 }
 
