@@ -24,12 +24,13 @@ div {
   top: -60px;
 }
 
-.caitsith-winImg {
+img.caitsith-win {
   position: absolute;
   top: 170px;
+  left: 10px;
 } 
 
-.tifa-lbImg {
+img.tifa-lb {
   transform: scale(1.3);
   position: absolute;
   top: 80px;
