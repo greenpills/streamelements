@@ -103,8 +103,8 @@ div.yuffie-lbText {
   
 @keyframes movop {
   10% {opacity: 1;}
-  81% {opacity: 1; left: 145px; top: 300px; transform: scaley(1);}
-  83% {opacity: 0; top: 345px; transform: scaley(0.05);}
+  81% {opacity: 1; left: 145px; top: 240px; transform: scaley(1);}
+  83% {opacity: 0; top: 235px; transform: scaley(0.05);}
   100% {left: 145px;}
 }
 
