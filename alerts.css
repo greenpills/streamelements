@@ -88,8 +88,8 @@ img.yuffie-lb {
 
 @keyframes stretchop {
    0% {opacity: 0; top: 220px;}
-  20% {opacity: 0.99; transform: scale(1, 1); top: 180px;}
+  20% {opacity: 0.99; transform: scale(1); top: 180px;}
   70% {opacity: 1;}
   76% {opacity: 0;}
-  100% {transform: scale(1, 1);}
+  100% {transform: scale(1.2);}
 }
