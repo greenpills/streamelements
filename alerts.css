@@ -99,7 +99,8 @@ div.yuffie-lbText {
   opacity: 0;
   animation-name: movop;
   animation-timing-function: cubic-bezier(.1,.7,.3,.3);
-
+}
+  
 @keyframes movop {
   10% {opacity: 1;}
   81% {opacity: 1; left: 145px; top: 300px; transform: scaley(1);}
