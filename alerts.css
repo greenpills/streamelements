@@ -56,8 +56,8 @@ img.yuffie-lb {
 #movop {
   opacity: 0;
   animation-name: movop;
-//animation-timing-function: cubic-bezier(.1,.7,.3,.3);
-  animation-timing-function: linear;
+  animation-timing-function: cubic-bezier(.1,.7,.3,.3);
+//animation-timing-function: linear;
 }
 
 #opactex {
@@ -76,8 +76,8 @@ img.yuffie-lb {
 }
   
 @keyframes movop {
-  0% {left: 100px;};
-  5% {opacity: 1;}
+  0% {left: 100px;}
+  10% {opacity: 1;}
   81% {opacity: 1; left: 145px; top: 240px; transform: scaley(1);}
   83% {opacity: 0; top: 255px; transform: scaley(0.05);}
   100% {left: 145px;}
