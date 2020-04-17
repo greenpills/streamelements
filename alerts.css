@@ -59,7 +59,7 @@ img.yuffie-lb {
   animation-timing-function: cubic-bezier(.1,.7,.3,.3);
 }
 
-.opacity {
+#opactex {
   opacity: 0;
   animation-name: opacity;
 }
@@ -69,6 +69,11 @@ img.yuffie-lb {
   animation-name: stretchop;
 }
 
+#opacmes {
+  opacity: 0;
+  animation-name: opacity;
+}
+  
 @keyframes movop {
   10% {opacity: 1;}
   81% {opacity: 1; left: 145px; top: 240px; transform: scaley(1);}
