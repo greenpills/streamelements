@@ -46,7 +46,12 @@ div {
   animation-delay: 3.5s;
 }
 
-.aerithText {
+.aerithlbImg {
+  position: absolute;
+  top: -50px;
+}
+
+.aerithlbText {
   position: absolute;
   left: 140px;
   top: 80px;
