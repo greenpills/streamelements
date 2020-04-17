@@ -59,7 +59,7 @@ img.yuffie-lb {
   animation-timing-function: cubic-bezier(.1,.7,.3,.3);
 }
 
-#opacity {
+.opacity {
   opacity: 0;
   animation-name: opacity;
 }
