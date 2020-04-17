@@ -37,6 +37,15 @@ div {
   animation-timing-function: cubic-bezier(.1,.7,.3,.3);
 }
 
+.fadein {
+  position: absolute;
+  left: 100px;
+  top: 30px;
+  opacity: 0;
+  animation: opacity 10s;
+  animation-delay: 3.5s;
+}
+
 @keyframes movop {
   10% {opacity: 1;}
   81% {opacity: 1; left: 145px; top: 30px; transform: scaley(1);}
