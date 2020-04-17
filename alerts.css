@@ -46,6 +46,15 @@ div {
   animation-delay: 3.5s;
 }
 
+.aerithText {
+  position: absolute;
+  left: 140px;
+  top: 80px;
+  opacity: 0;
+  animation: opacity 10s;
+  animation-delay: 3.5s;
+}
+
 @keyframes movop {
   10% {opacity: 1;}
   81% {opacity: 1; left: 145px; top: 30px; transform: scaley(1);}
