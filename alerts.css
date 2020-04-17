@@ -30,7 +30,7 @@ div {
 .text {
   position: absolute;
   left: 100px;
-  top: 200px;
+  top: 30px;
   opacity: 0;
   animation: movop 10s;
   animation-delay: 3.5s;
@@ -40,7 +40,7 @@ div {
 .caitsithText {
   position: absolute;
   left: 140px;
-  top: 230px;
+  top: 40px;
   opacity: 0;
   animation: opacity 10s;
   animation-delay: 3.5s;
