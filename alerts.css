@@ -43,7 +43,7 @@ img.yuffie-lb {
   
 .text {
   position: absolute;
-  left: 100px;
+  left: 130px;
   top: 240px;
 }
 
@@ -75,6 +75,7 @@ img.yuffie-lb {
 }
   
 @keyframes movop {
+  0% {left: 145px;};
   10% {opacity: 1;}
   81% {opacity: 1; left: 145px; top: 240px; transform: scaley(1);}
   83% {opacity: 0; top: 255px; transform: scaley(0.05);}
