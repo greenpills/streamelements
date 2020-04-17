@@ -40,7 +40,7 @@ div {
 .caitsithText {
   position: absolute;
   left: 160px;
-  top: 50px;
+  top: 40px;
   opacity: 0;
   animation: opacity 10s;
   animation-delay: 3.5s;
