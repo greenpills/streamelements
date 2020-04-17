@@ -41,7 +41,7 @@ div {
 
 .aerith-lbText {
   left: 140px;
-  top: 40px;
+  top: 300px;
   opacity: 0;
   animation-name: opacity;
   animation-duration: 10s;
@@ -50,13 +50,13 @@ div {
 
 .caitsith-winImg {
   position: absolute;
-  top: 60px;
+  top: 250px;
 } 
   
 .caitsith-winText {
   position: absolute;
   left: 140px;
-  top: 40px;
+  top: 300px;
   opacity: 0;
   animation-name: opacity;
   animation-duration: 10s;
@@ -80,13 +80,13 @@ div {
 
 .yuffie-lbImg {
   position: absolute;
-  top: 60px;
+  top: 220px;
 }
   
 .yuffie-lbText {
   position: absolute;
   left: 100px;
-  top: 30px;
+  top: 300px;
   opacity: 0;
   animation-name: movop;
   animation-duration: 10s;
