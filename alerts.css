@@ -26,7 +26,7 @@ div {
 
 .caitsith-winImg {
   position: absolute;
-  top: 180px;
+  top: 170px;
 } 
 
 .tifa-lbImg {
@@ -75,7 +75,7 @@ img.yuffie-lb {
 }
   
 @keyframes movop {
-  0% {left: 145px;};
+  0% {left: 100px;};
   10% {opacity: 1;}
   81% {opacity: 1; left: 145px; top: 240px; transform: scaley(1);}
   83% {opacity: 0; top: 255px; transform: scaley(0.05);}
