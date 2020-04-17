@@ -39,7 +39,7 @@ div {
 
 .fadein {
   position: absolute;
-  left: 100px;
+  left: 130px;
   top: 30px;
   opacity: 0;
   animation: opacity 10s;
