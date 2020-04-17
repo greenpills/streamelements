@@ -40,6 +40,7 @@ div {
 }
 
 .aerith-lbText {
+  position: absolute;
   left: 140px;
   top: 300px;
   opacity: 0;
@@ -50,7 +51,7 @@ div {
 
 .caitsith-winImg {
   position: absolute;
-  top: 250px;
+  top: 210px;
 } 
   
 .caitsith-winText {
