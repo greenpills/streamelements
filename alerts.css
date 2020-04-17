@@ -40,7 +40,7 @@ div {
 @keyframes movop {
   10% {opacity: 1;}
   81% {opacity: 1; left: 145px; top: 30px; transform: scaley(1);}
-  84% {opacity: 0; top: 45px; transform: scaley(0.05);}
+  83% {opacity: 0; top: 45px; transform: scaley(0.05);}
   100% {left: 145px;}
 }
 
