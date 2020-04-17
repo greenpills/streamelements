@@ -9,7 +9,7 @@ p {
   font-size: 20px;
   padding: 0px 20px 20px 130px;
   animation: opacity 11s;
-  animation-delay: 3.5s;
+  animation-delay: {{textDelay}}s;
   opacity: 0;
 }
 
@@ -53,10 +53,10 @@ div {
 
 .aerithlbText {
   left: 140px;
-  top: 250px;
+  top: 40px;
   opacity: 0;
   animation: opacity 10s;
-  animation-delay: 3.5s;
+  animation-delay: 5.5s;
 }
 
 @keyframes movop {
