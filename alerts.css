@@ -14,7 +14,7 @@ p {
 }
 
 div {
-  font-size: 30px;
+  font-size: 200px;
   padding-top: 60px;
 }
 
@@ -30,7 +30,7 @@ div {
 .text {
   position: absolute;
   left: 100px;
-  top: 30px;
+  top: 200px;
   opacity: 0;
   animation: movop 10s;
   animation-delay: 3.5s;
@@ -40,7 +40,7 @@ div {
 .caitsithText {
   position: absolute;
   left: 140px;
-  top: 60px;
+  top: 230px;
   opacity: 0;
   animation: opacity 10s;
   animation-delay: 3.5s;
@@ -48,12 +48,12 @@ div {
 
 .aerithlbImg {
   position: absolute;
-  top: -50px;
+  top: -60px;
 }
 
 .aerithlbText {
   left: 140px;
-  top: 120px;
+  top: 250px;
   opacity: 0;
   animation: opacity 10s;
   animation-delay: 3.5s;
@@ -61,8 +61,8 @@ div {
 
 @keyframes movop {
   10% {opacity: 1;}
-  81% {opacity: 1; left: 145px; top: 30px; transform: scaley(1);}
-  83% {opacity: 0; top: 45px; transform: scaley(0.05);}
+  81% {opacity: 1; left: 145px; top: 200px; transform: scaley(1);}
+  83% {opacity: 0; top: 325px; transform: scaley(0.05);}
   100% {left: 145px;}
 }
 
