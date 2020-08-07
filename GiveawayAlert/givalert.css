@@ -1,0 +1,22 @@
+div {
+  font-family: "Agency FB";
+  font-size: 60px;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: -1px 0px 4px #217AA2, 0px -1px 4px #217AA2, 1px 0px 4px #217AA2, 1px 0px 4px #217AA2;
+  opacity: 0;
+}
+
+img {
+width: 200px;
+height: auto;
+}
+
+.opac {
+  animation: opacity 15s;
+}
+
+@keyframes opacity {
+  10% {opacity: 1;}
+  84% {opacity: 1;}
+}
