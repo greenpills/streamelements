@@ -1,0 +1,23 @@
+{
+  "winColor": {
+    "type": "colorpicker",
+    "label": "Winner Color",
+    "value": "#008081"
+  },
+  
+  "animation": {
+    "type": "image-input",
+    "label": "Animation"
+  },
+  
+  "soundAlert": {
+    "type": "sound-input",
+    "label": "Alert"
+  },
+  
+  "winMessage": {
+    "type": "text",
+    "label": "Winner Message",
+    "value": "ganhou o sorteio!"
+  }
+}
