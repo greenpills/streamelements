@@ -1,5 +1,5 @@
 div, p {
-  font-family: "Agency FB";
+  font-family: 'agency-fb-regular', sans-serif;
   color: #FFFFFF;
   text-shadow: -1px 0px 4px #217AA2, 0px -1px 4px #217AA2, 1px 0px 4px #217AA2, 1px 0px 4px #217AA2;
 }
