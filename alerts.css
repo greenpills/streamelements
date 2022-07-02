@@ -12,6 +12,7 @@ p {
 div {
   position: relative;
   font-size: 30px;
+  line-height: 0.8;
 }
 
 .highlight {
