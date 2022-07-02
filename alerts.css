@@ -12,12 +12,12 @@ p {
 div {
   position: relative;
   font-size: 30px;
-  line-height: 0.8;
 }
 
 .highlight {
   color: #56CCB0;
   font-weight: bold;
+  line-height: 0.9;
 }
 
 img.aerith-lb {
